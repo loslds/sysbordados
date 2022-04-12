@@ -5,19 +5,18 @@ export const ContainerApp = styled.div`
   padding: 2px 2px 2px 2px;
   height: 100%;
   width: 100%;
-  background-color: '#000000';
+  background-color: rgba(f,f,f);
   color: '#ffffff';
-  display: flex;
 `
 export const ContainerAppFlex = styled.div`
-  border: 1px red solid;
-  margin: 1px 1px 1px 1px;
-  padding: 1px 1px 1px 1px;
-  width: 920px;
+  border: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
   display: flex;
   flex: 1 1 0%;
-  background-color: "#ffffff";
-  color: '#000000';
+  justify-content: center;
+  background-color: "transparent";
 `
 export const ConteinerMainApp = styled.div`
   border: 1px #1214b6 dotted;

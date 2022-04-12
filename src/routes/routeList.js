@@ -2,22 +2,22 @@
  *  ====== Layout dos Componentes Paginas
  * */
 import { LayoutApp } from '../components/layouts/LayoutApp'
-import { PageLogin } from '../pages'
+import { PageLogin } from '../pages/Login'
 import { PageHome } from '../pages/Home'
 
 
 export const homeRoutes = [
   {
     exact: true,
-    label: 'UserLogin',
-    path: './pages/login',
+    label: 'Login',
+    path: '/login',
     component: PageLogin,
     layout: LayoutApp
   },
   {
     exact: true,
     label: 'Home',
-    path: './pages/home',
+    path: '/',
     component: PageHome,
     layout: LayoutApp
   }

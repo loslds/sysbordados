@@ -15,7 +15,7 @@ import React from 'react'
 export const PageHome = () => {
   // const { push } = useHistory()
   return (
-    <h1>layoutApp</h1>
+    <h1>PageHome</h1>
     // <PanelMain>
     //   <ContainerPanelText>
     //     <ContainerPanelTextFlex>
