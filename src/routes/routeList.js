@@ -3,22 +3,32 @@
  * */
 import { LayoutApp } from '../components/layouts/LayoutApp'
 import { PageLogin } from '../pages/Login'
+import { PageLoginNew } from '../pages/LoginNew'
 import { PageHome } from '../pages/Home'
 
 
 export const homeRoutes = [
   {
     exact: true,
+    label: 'Home',
+    path: '/home',
+    component: PageHome,
+    layout: LayoutApp
+  },
+
+  {
+    exact: true,
     label: 'Login',
-    path: '/login',
+    path: '/',
     component: PageLogin,
     layout: LayoutApp
   },
+
   {
     exact: true,
-    label: 'Home',
-    path: '/',
-    component: PageHome,
+    label: 'LoginNew',
+    path: '/loginnew',
+    component: PageLoginNew,
     layout: LayoutApp
   }
 

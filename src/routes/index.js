@@ -2,13 +2,14 @@ import React from 'react'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import { routeList } from '../routes/routeList'
 
+
 function RouteWithSubRoutes(route) {
   const logged = false
 
   function BuildRoute(p) {
     const { component: Component, layout: Layout, privated } = p
 
-    if (!logged && privated) return <Redirect to="/login" />
+    if (!logged && privated) return <Redirect to= "/login" />
 
     return (
       <Layout>
