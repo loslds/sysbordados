@@ -6,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton"
 
 
 
-export const PageLoginNew = () => {
+export const PageLoginRec = () => {
 
   const paperStyle= {
     padding: 20,
@@ -47,7 +47,6 @@ export const PageLoginNew = () => {
    }
 
   return (
-
     <Grid>
       <Paper elevation={10} style={paperStyle}>
         <Grid align ='center'>
