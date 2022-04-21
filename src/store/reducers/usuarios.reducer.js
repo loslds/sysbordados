@@ -10,7 +10,7 @@ const initialState = {
   ]
 }
 
-const usuariosReducer = ( state = initialState.usuarios) => {
+const usuariosReducer = ( state = initialState.usuarios, action) => {
 
   return state
 
