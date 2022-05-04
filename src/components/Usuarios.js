@@ -1,22 +1,24 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 export class Usuarios extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
 
   render() {
-    return (
-      <div>
 
+    return (
+
+      <div>
+        <h2>Usuários : {this.props.usuarios.active}</h2>
       </div>
+
     )
+
   }
 }
 
 const mapStateToProps = (state) => ({
+
+  usuarios: state.usuariosReducer
 
 })
 
