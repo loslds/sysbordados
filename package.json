@@ -50,6 +50,10 @@
       "react-app/jest"
     ]
   },
+  "colorize.languages": [
+    "javascript"
+    ]
+  ,
   "browserslist": {
     "production": [
       ">0.2%",

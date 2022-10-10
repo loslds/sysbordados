@@ -5,8 +5,8 @@ export const ContainerApp = styled.div`
   padding: 2px 2px 2px 2px;
   height: 100%;
   width: 100%;
-  background-color: rgba(f,f,f);
-  color: '#ffffff';
+  background-color: black;
+  color: white;
 `
 export const ContainerAppFlex = styled.div`
   border: 0px;
@@ -18,7 +18,7 @@ export const ContainerAppFlex = styled.div`
   justify-content: center;
   background-color: "transparent";
 `
-export const ConteinerMainApp = styled.div`
+export const ConteinerAppMain = styled.div`
   border: 1px #1214b6 dotted;
   max-width: 920px;
   margin: 0px 0px 0px 0px;

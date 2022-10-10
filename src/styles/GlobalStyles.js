@@ -20,7 +20,7 @@ body {
   max-width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: black;
+    background-color: black;
   color: white;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

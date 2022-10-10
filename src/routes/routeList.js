@@ -1,7 +1,7 @@
 /**
  *  ====== Layout dos Componentes Paginas
  * */
-import { LayoutApp } from '../components/layouts/LayoutApp'
+import  LayoutApp  from '../components/layouts/LayoutApp'
 import { PageAccess } from '../pages/Access/Index'
 import { PageLogin } from '../pages/Login'
 import { PageLoginNew } from '../pages/LoginNew'
